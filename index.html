@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Massageador de Ventosa com Calor | Bellavero</title>
+<meta name="description" content="Massageador de ventosa elétrico sem fio, com calor de 45-50°C e 12 níveis de sucção. Seu momento de relaxamento em casa. Frete grátis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+<!-- Meta Pixel: Bellavero (ID 2017001028996657) -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2017001028996657');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=2017001028996657&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel -->
+
+<!-- MICROSOFT CLARITY — cole aqui o código do Clarity (clarity.microsoft.com) -->
+
+<style>
+  :root {
+    --bg: #f8f3ed;
+    --surface: #ffffff;
+    --surface-2: #efe6dc;
+    --ink: #2a1f19;
+    --ink-soft: #6b5d53;
+    --brand: #2b1d15;
+    --brand-ink: #f3e6d8;
+    --accent: #a8703f;
+    --cta: #9c6535;
+    --cta-ink: #ffffff;
+    --line: #e6dacd;
+    --ok: #2f7a4f;
+    --radius: 18px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17110d; --surface: #201812; --surface-2: #2a2019; --ink: #f3ebe3;
+      --ink-soft: #b9a99b; --brand: #120c09; --brand-ink: #f3e6d8; --accent: #d29b6c;
+      --cta: #b77a45; --cta-ink: #ffffff; --line: #3a2d24; --ok: #6fcf97;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17110d; --surface: #201812; --surface-2: #2a2019; --ink: #f3ebe3;
+    --ink-soft: #b9a99b; --brand: #120c09; --brand-ink: #f3e6d8; --accent: #d29b6c;
+    --cta: #b77a45; --cta-ink: #ffffff; --line: #3a2d24; --ok: #6fcf97;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 "Inter", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 84px; /* espaço da barra fixa no celular */
+  }
+  img { max-width: 100%; display: block; }
+  h1, h2, h3 { font-family: "Fraunces", Georgia, serif; line-height: 1.15; margin: 0 0 .5em; }
+  h1 { font-size: clamp(2rem, 6vw, 3.2rem); }
+  h2 { font-size: clamp(1.6rem, 4.5vw, 2.3rem); }
+  h3 { font-size: 1.15rem; font-family: "Inter", sans-serif; font-weight: 700; }
+  p { margin: 0 0 1em; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+  section { padding: 56px 0; }
+  .center { text-align: center; }
+  .muted { color: var(--ink-soft); }
+  .eyebrow { display: inline-block; font-size: .8rem; font-weight: 700; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+
+  /* Barra superior */
+  .topbar { background: var(--brand); color: var(--brand-ink); font-size: .85rem; font-weight: 600;
+    text-align: center; padding: 8px 16px; }
+  header.site { padding: 12px 0; background: var(--brand); }
+  header.site .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .logo img { height: 56px; width: auto; }
+  .topbar { background: var(--accent) !important; color: #fff !important; }
+  .guarantee { background: var(--brand) !important; }
+  .guarantee .g strong { color: #e0b48a; }
+
+  /* Botões */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    background: var(--cta); color: var(--cta-ink); text-decoration: none; font-weight: 700;
+    font-size: 1.05rem; padding: 16px 28px; border-radius: 999px; border: 0; cursor: pointer;
+    box-shadow: 0 8px 24px -10px var(--cta); transition: transform .15s ease, filter .15s ease; }
+  .btn:hover { transform: translateY(-1px); filter: brightness(1.08); }
+  .btn.block { width: 100%; }
+  .btn.small { padding: 10px 18px; font-size: .9rem; box-shadow: none; }
+
+  /* Hero */
+  .hero { padding: 32px 0 48px; }
+  .hero .grid { display: grid; gap: 28px; align-items: center; }
+  @media (min-width: 860px) { .hero .grid { grid-template-columns: 1.05fr 1fr; gap: 48px; } }
+  .hero-media { border-radius: var(--radius); overflow: hidden; background: var(--surface-2); aspect-ratio: 1/1; }
+  .hero-media img { width: 100%; height: 100%; object-fit: cover; }
+  .rating { display: flex; align-items: center; gap: 8px; font-size: .9rem; color: var(--ink-soft); margin-bottom: 8px; }
+  .price-box { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 20px; margin: 20px 0; }
+  .price { font-size: 2.2rem; font-weight: 700; font-family: "Inter", sans-serif; color: var(--ink); line-height: 1; }
+  .price small { font-size: .95rem; font-weight: 500; color: var(--ink-soft); }
+  .pix { margin-top: 8px; color: var(--ok); font-weight: 700; }
+  .trust { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 14px; font-size: .88rem; color: var(--ink-soft); }
+  .trust span { display: inline-flex; align-items: center; gap: 6px; }
+  .bullets { list-style: none; padding: 0; margin: 0 0 8px; }
+  .bullets li { padding-left: 28px; position: relative; margin-bottom: 8px; }
+  .bullets li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--ok); font-weight: 700; }
+
+  /* Dor */
+  .pain { background: var(--surface-2); }
+  .pain-list { display: grid; gap: 12px; margin: 24px 0; }
+  @media (min-width: 720px) { .pain-list { grid-template-columns: 1fr 1fr; } }
+  .pain-item { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .callout { font-family: "Fraunces", serif; font-size: clamp(1.25rem, 3.5vw, 1.6rem); color: var(--accent); text-align: center; margin-top: 28px; }
+
+  /* Produto / features */
+  .split { display: grid; gap: 28px; align-items: center; }
+  @media (min-width: 860px) { .split { grid-template-columns: 1fr 1fr; gap: 48px; } }
+  .media { border-radius: var(--radius); overflow: hidden; background: var(--surface-2); aspect-ratio: 4/5; }
+  .media img { width: 100%; height: 100%; object-fit: cover; }
+  .features { display: grid; gap: 14px; grid-template-columns: 1fr 1fr; margin-top: 28px; }
+  @media (min-width: 860px) { .features { grid-template-columns: repeat(3, 1fr); } }
+  .feature { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+  .feature .ico { font-size: 1.6rem; margin-bottom: 6px; }
+  .feature p { margin: 0; font-size: .92rem; color: var(--ink-soft); }
+
+  /* Veja em ação (clipes em loop) */
+  .live { display: grid; gap: 14px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 28px; }
+  @media (max-width: 640px) { .live { grid-template-columns: 1fr 1fr; } .live figure:last-child { grid-column: 1 / -1; } .live figure:last-child .clip { aspect-ratio: 16/10; } }
+  .live figure { margin: 0; display: grid; gap: 8px; min-width: 0; }
+  .clip { position: relative; border-radius: 14px; overflow: hidden; background: var(--surface-2); aspect-ratio: 4/5; max-width: 100%; }
+  .clip video, .media video, .hero-media video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .clip .tag { position: absolute; left: 10px; bottom: 10px; background: rgba(43,29,21,.82); color: #fff;
+    font-size: .8rem; font-weight: 700; padding: 6px 10px; border-radius: 999px; }
+  .real-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--brand); color: var(--brand-ink);
+    font-size: .82rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 8px 14px;
+    border-radius: 999px; margin-bottom: 14px; }
+  .real-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: #e0524a; box-shadow: 0 0 0 0 rgba(224,82,74,.6); animation: rec 1.6s infinite; }
+  @keyframes rec { 0% { box-shadow: 0 0 0 0 rgba(224,82,74,.6); } 70% { box-shadow: 0 0 0 8px rgba(224,82,74,0); } 100% { box-shadow: 0 0 0 0 rgba(224,82,74,0); } }
+  @media (prefers-reduced-motion: reduce) { .real-badge .dot { animation: none; } }
+  .live figcaption { font-size: .88rem; color: var(--ink-soft); }
+
+  /* Botão Yampi: escondido fora da tela; só aparece se precisar de reserva */
+  .ymp-holder { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+  .ymp-holder.show { position: static; width: auto; height: auto; overflow: visible; margin-top: 16px; display: flex; justify-content: center; }
+
+  /* Comparação */
+  .compare { width: 100%; border-collapse: separate; border-spacing: 0; margin-top: 24px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; font-size: .95rem; }
+  .compare th, .compare td { padding: 14px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .compare tr:last-child td { border-bottom: 0; }
+  .compare th { background: var(--surface-2); font-weight: 700; }
+  .compare td.us, .compare th.us { background: color-mix(in srgb, var(--brand) 8%, transparent); font-weight: 600; }
+
+  /* Passos */
+  .steps { display: grid; gap: 14px; margin-top: 24px; counter-reset: step; }
+  @media (min-width: 860px) { .steps { grid-template-columns: repeat(4, 1fr); } }
+  .step { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px 18px; position: relative; }
+  .step::before { counter-increment: step; content: counter(step); display: grid; place-items: center;
+    width: 34px; height: 34px; border-radius: 50%; background: var(--accent); color: #fff;
+    font-weight: 700; margin-bottom: 10px; }
+  .step p { margin: 0; color: var(--ink-soft); font-size: .93rem; }
+
+  /* Para quem */
+  .chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px; }
+  .chip { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; font-weight: 500; }
+
+  /* Caixa */
+  .box-list { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 8px; }
+  .box-list li { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; }
+
+  /* Garantia */
+  .guarantee { background: var(--brand); color: var(--brand-ink); border-radius: var(--radius); padding: 32px 22px; text-align: center; }
+  .guarantee h2 { color: var(--brand-ink); }
+  .guarantee .g-grid { display: grid; gap: 12px; margin-top: 18px; text-align: left; }
+  @media (min-width: 720px) { .guarantee .g-grid { grid-template-columns: repeat(3, 1fr); } }
+  .guarantee .g { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px; }
+  .guarantee .g strong { display: block; margin-bottom: 4px; }
+
+  /* FAQ */
+  .faq { max-width: 760px; margin: 24px auto 0; }
+  details { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; margin-bottom: 10px; padding: 0 18px; }
+  summary { cursor: pointer; font-weight: 600; padding: 16px 0; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; font-size: 1.3rem; color: var(--accent); line-height: 1; }
+  details[open] summary::after { content: "–"; }
+  details p { color: var(--ink-soft); padding-bottom: 14px; margin: 0; }
+
+  /* Cuidados */
+  .care { background: var(--surface); border: 1px dashed var(--line); border-radius: 14px; padding: 18px 20px; font-size: .92rem; color: var(--ink-soft); max-width: 760px; margin: 0 auto; }
+  .care ul { margin: 8px 0 0; padding-left: 20px; }
+
+  /* CTA final */
+  .final { text-align: center; }
+  .final .price { margin: 10px 0 4px; }
+
+  /* Rodapé */
+  footer { border-top: 1px solid var(--line); padding: 32px 0 24px; font-size: .85rem; color: var(--ink-soft); background: var(--surface); }
+  footer .cols { display: grid; gap: 18px; }
+  @media (min-width: 720px) { footer .cols { grid-template-columns: 1.4fr 1fr; } }
+  footer a { color: var(--ink-soft); }
+  footer ul { list-style: none; margin: 0; padding: 0; }
+  footer li { margin-bottom: 6px; }
+  .disclaimer { margin-top: 18px; font-size: .78rem; }
+
+  /* Barra fixa (celular) */
+  .sticky-cta { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; background: var(--surface);
+    border-top: 1px solid var(--line); padding: 10px 16px; display: flex; align-items: center; gap: 12px;
+    box-shadow: 0 -8px 24px -16px rgba(0,0,0,.4); }
+  .sticky-cta .p { line-height: 1.2; }
+  .sticky-cta .p strong { display: block; font-size: 1.1rem; }
+  .sticky-cta .p span { font-size: .78rem; color: var(--ok); font-weight: 600; }
+  .sticky-cta .btn { flex: 1; padding: 14px 16px; font-size: 1rem; }
+  @media (min-width: 860px) { .sticky-cta { display: none; } body { padding-bottom: 0; } }
+
+  /* Placeholder de imagem (some quando você colocar a foto) */
+  .ph { display: grid; place-items: center; width: 100%; height: 100%; min-height: 220px; padding: 20px;
+    text-align: center; color: var(--ink-soft); font-size: .9rem; font-weight: 600;
+    background: repeating-linear-gradient(45deg, var(--surface-2), var(--surface-2) 12px, var(--surface) 12px, var(--surface) 24px); }
+</style>
+</head>
+<body>
+
+<div class="topbar">🚚 Frete grátis para todo o Brasil · Pix com 5% de desconto</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="Bellavero"><img src="logo.png" alt="Bellavero"></a>
+    <a class="btn small js-buy" href="#">Comprar</a>
+  </div>
+</header>
+
+<!-- 1. HERO -->
+<section class="hero">
+  <div class="wrap grid">
+    <div class="hero-media" data-img="hero" data-label="FOTO PRINCIPAL: aparelho em fundo limpo ou uso nas costas"></div>
+    <div>
+      <span class="eyebrow">Massageador de ventosa com calor</span>
+      <h1>Solte a tensão do dia em 20 minutos, sem sair de casa</h1>
+      <p class="muted">Ventosa elétrica com calor, 12 níveis de sucção e sem fio. Seu momento de relaxamento, na hora que você quiser.</p>
+      <ul class="bullets">
+        <li>12 níveis de sucção, do suave ao intenso</li>
+        <li>Calor de 45–50°C que aquece e relaxa</li>
+        <li>Sem fio e recarregável: use onde quiser</li>
+      </ul>
+      <div class="price-box">
+        <div class="price"><span class="js-price"></span> <small>ou em até 12x no cartão</small></div>
+        <div class="pix">💚 <span class="js-pix"></span> no Pix (5% de desconto)</div>
+        <div style="margin-top:16px"><a class="btn block js-buy" href="#">QUERO O MEU AGORA</a></div>
+        <div class="trust">
+          <span>🚚 Frete grátis</span>
+          <span>🔒 Compra segura</span>
+          <span>↩️ 7 dias para devolução</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. DOR -->
+<section class="pain">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Você não está sozinho</span>
+      <h2>Quem tem uma rotina corrida conhece essa sensação…</h2>
+    </div>
+    <div class="pain-list">
+      <div class="pain-item">💻 Horas no computador e os <strong>ombros parecem de pedra</strong> no fim do dia</div>
+      <div class="pain-item">📱 O pescoço <strong>"trava"</strong> depois de horas no celular</div>
+      <div class="pain-item">😮‍💨 Chegar em casa <strong>cansado</strong> e não conseguir relaxar</div>
+      <div class="pain-item">💸 Massagem profissional <strong>custa caro</strong> e nunca cabe na agenda</div>
+    </div>
+    <p class="callout">E se você pudesse ter uma sessão de ventosa com calor em casa, na hora que quisesse?</p>
+  </div>
+</section>
+
+<!-- 3. PRODUTO + FEATURES -->
+<section>
+  <div class="wrap">
+    <div class="split">
+      <div class="media" data-img="uso" data-label="FOTO: uso nas costas (com as marcas da ventosa)"></div>
+      <div>
+        <span class="eyebrow">Conheça</span>
+        <h2>Ventosa e calor no mesmo aparelho</h2>
+        <p class="muted">Ele une <strong>sucção ajustável</strong> e <strong>calor suave de 45–50°C</strong> para uma sensação de relaxamento profundo. É só ligar, escolher a intensidade e deslizar — no sofá, na cama ou no intervalo do trabalho.</p>
+        <a class="btn js-buy" href="#">QUERO O MEU</a>
+      </div>
+    </div>
+    <div class="features">
+      <div class="feature"><div class="ico">🎚️</div><h3>12 níveis de sucção</h3><p>Do suave ao intenso, você escolhe</p></div>
+      <div class="feature"><div class="ico">🔥</div><h3>Calor 45–50°C</h3><p>Aquece e relaxa a região</p></div>
+      <div class="feature"><div class="ico">🔋</div><h3>Sem fio</h3><p>Recarregável, use onde quiser</p></div>
+      <div class="feature"><div class="ico">📟</div><h3>Visor digital</h3><p>Veja a intensidade e o tempo</p></div>
+      <div class="feature"><div class="ico">⏱️</div><h3>Desliga sozinho</h3><p>Temporizador para mais segurança</p></div>
+      <div class="feature"><div class="ico">👆</div><h3>Libera com 1 toque</h3><p>Solta a ventosa na hora</p></div>
+    </div>
+
+    <div class="center" style="margin-top:48px">
+      <span class="real-badge"><span class="dot" aria-hidden="true"></span>Vídeos reais do produto</span>
+      <h2>Veja o massageador em ação</h2>
+      <p class="muted" style="margin:0 auto;max-width:520px">Gravações do aparelho funcionando de verdade: ajuste de níveis, calor e efeito ventosa.</p>
+    </div>
+    <div class="live">
+      <figure><div class="clip" data-img="clipNiveis" data-label="12 níveis"><span class="tag">12 níveis</span></div><figcaption>Ajuste a sucção com um toque</figcaption></figure>
+      <figure><div class="clip" data-img="clipCalor" data-label="Calor"><span class="tag">Calor 45–50°C</span></div><figcaption>Luz e calor que aquecem a região</figcaption></figure>
+      <figure><div class="clip" data-img="clipMarcas" data-label="Ventosa"><span class="tag">Efeito ventosa</span></div><figcaption>As marcas redondas somem em alguns dias</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 4. COMPARAÇÃO -->
+<section style="background:var(--surface-2)">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Faça as contas</span>
+      <h2>Spa em casa, todos os dias</h2>
+    </div>
+    <table class="compare">
+      <thead>
+        <tr><th></th><th>Massagista / clínica</th><th class="us">Massageador Bellavero</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Custo</strong></td><td>~R$ 120 por sessão</td><td class="us"><span class="js-price"></span> uma vez só</td></tr>
+        <tr><td><strong>Quando</strong></td><td>Quando tem horário</td><td class="us">Todo dia, a qualquer hora</td></tr>
+        <tr><td><strong>Onde</strong></td><td>Precisa se deslocar</td><td class="us">Sofá, cama, trabalho, viagem</td></tr>
+      </tbody>
+    </table>
+    <p class="callout">Com menos de 2 sessões na clínica, ele já se pagou.</p>
+  </div>
+</section>
+
+<!-- 5. COMO USAR -->
+<section>
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Simples assim</span>
+      <h2>Como usar</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Ligue</h3><p>Escolha o nível de sucção e ative o calor</p></div>
+      <div class="step"><h3>Aplique</h3><p>Um pouco de óleo ou hidratante na pele</p></div>
+      <div class="step"><h3>Deslize</h3><p>Ou deixe parado na região por alguns minutos</p></div>
+      <div class="step"><h3>Relaxe</h3><p>15 a 20 minutos são suficientes</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. PARA QUEM + CAIXA -->
+<section style="background:var(--surface-2)">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <span class="eyebrow">Para quem é</span>
+        <h2>Feito para a sua rotina</h2>
+        <div class="chips" style="justify-content:flex-start">
+          <span class="chip">💻 Trabalha sentado</span>
+          <span class="chip">🏋️ Relaxar pós-treino</span>
+          <span class="chip">🚗 Dirige ou viaja muito</span>
+          <span class="chip">🎁 Presente de Natal</span>
+        </div>
+        <h3 style="margin-top:28px">O que vem na caixa</h3>
+        <!-- CONFIRA no anúncio do AliExpress e ajuste esta lista -->
+        <ul class="box-list">
+          <li>1 Massageador de ventosa com calor</li>
+          <li>1 Cabo de carregamento USB</li>
+          <li>1 Manual de instruções</li>
+        </ul>
+      </div>
+      <div class="media" data-img="caixa" data-label="Abrindo a caixa"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. GARANTIA -->
+<section>
+  <div class="wrap">
+    <div class="guarantee">
+      <h2>Compra sem risco</h2>
+      <p style="opacity:.9;margin:0">Você compra com tranquilidade.</p>
+      <div class="g-grid">
+        <div class="g"><strong>↩️ 7 dias para devolução</strong>Não gostou? Devolvemos seu dinheiro.</div>
+        <div class="g"><strong>🛡️ 90 dias de garantia</strong>Contra defeitos de fabricação.</div>
+        <div class="g"><strong>🚚 Frete grátis + rastreio</strong>Código de rastreio enviado por e-mail.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. FAQ -->
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Dúvidas</span>
+      <h2>Perguntas frequentes</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Qual o prazo de entrega?</summary><p>De 5 a 12 dias úteis, dependendo da sua região. Você recebe o código de rastreio assim que o pedido é enviado.</p></details>
+      <details><summary>Quanto tempo dura a bateria?</summary><p>[PREENCHA com a informação do fornecedor ou do seu teste com a amostra.]</p></details>
+      <details><summary>Dói? Deixa marca?</summary><p>Você controla a intensidade — comece no nível mais baixo. As marcas redondas são comuns na ventosa e costumam sumir em alguns dias.</p></details>
+      <details><summary>Posso usar todos os dias?</summary><p>Sim, respeitando 15 a 20 minutos por sessão.</p></details>
+      <details><summary>Quem não deve usar?</summary><p>Gestantes, pessoas com marcapasso, doenças cardíacas, feridas ou lesões na pele. Em caso de dúvida, consulte um profissional de saúde.</p></details>
+      <details><summary>E se chegar com defeito?</summary><p>Você tem 90 dias de garantia. É só responder o e-mail de confirmação do seu pedido que a nossa equipe resolve.</p></details>
+      <details><summary>Quais as formas de pagamento?</summary><p>Pix (com 5% de desconto), cartão de crédito em até 12x e boleto. O pagamento é processado em ambiente seguro.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 9. CUIDADOS -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="care">
+      <strong>Cuidados importantes</strong>
+      <ul>
+        <li>Não use se estiver grávida, tiver marcapasso, doença cardíaca, feridas ou lesões na pele.</li>
+        <li>Não use na cabeça, rosto, sobre ossos salientes ou varizes.</li>
+        <li>Se sentir desconforto ou alteração na pele, interrompa o uso.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 10. CTA FINAL -->
+<section class="final" style="background:var(--surface-2)">
+  <div class="wrap">
+    <h2>Seu momento de relaxamento está a um clique</h2>
+    <div class="price js-price"></div>
+    <div class="pix">💚 <span class="js-pix"></span> no Pix · Frete grátis</div>
+    <div style="margin-top:20px"><a class="btn js-buy" href="#">QUERO O MEU AGORA</a></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="logo"><img src="logo.png" alt="Bellavero" style="height:40px"></div>
+        <p style="margin-top:10px">Bem-estar e autocuidado para a sua rotina.</p>
+      </div>
+      <div>
+        <strong>Políticas</strong>
+        <ul style="margin-top:8px">
+          <li><a class="js-link-privacidade" href="#">Política de Privacidade</a></li>
+          <li><a class="js-link-termos" href="#">Termos de Uso</a></li>
+          <li><a class="js-link-trocas" href="#">Trocas e Devoluções</a></li>
+          <li><a class="js-link-entrega" href="#">Prazo de Entrega</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">Produto de bem-estar e relaxamento. Não substitui tratamento médico. Imagens ilustrativas.</p>
+  </div>
+</footer>
+
+<div class="sticky-cta">
+  <div class="p"><strong class="js-price"></strong><span><span class="js-pix"></span> no Pix</span></div>
+  <a class="btn js-buy" href="#">COMPRAR AGORA</a>
+</div>
+
+<script>
+/* ============================================================
+   CONFIGURAÇÃO — edite só este bloco
+   ============================================================ */
+const CONFIG = {
+  // Link de compra da Yampi (botão OQ0AWGH3OE). Se não abrir o checkout,
+  // copie o "link de compra" em Produtos > Botões de compra e cole aqui.
+  checkoutUrl: "https://bellavero.pay.yampi.com.br/r/9ZETK8FSJQ",   // link de compra da Yampi (SKU 7154845820)
+
+  price: 178.90,        // preço de venda
+  pixDiscount: 0.05,    // 5% no Pix
+
+  // Links das fotos (podem ser do painel da Yampi ou de outro lugar)
+  images: {
+    hero:  "uso-costas.webp", // animação: uso nas costas
+    uso:   "anim-ombro.mp4",  // clipe: uso no ombro
+    caixa: "anim-caixa.mp4",  // clipe: abrindo a caixa
+    clipNiveis: "anim-niveis.mp4",
+    clipCalor:  "anim-calor.mp4",
+    clipMarcas: "anim-marcas.mp4"
+  },
+
+  // Links das páginas institucionais
+  links: {
+    privacidade: "politicas.html#privacidade",
+    termos: "politicas.html#termos",
+    trocas: "politicas.html#trocas",
+    entrega: "politicas.html#entrega"
+  }
+};
+/* ============================================================ */
+
+const brl = v => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+const pix = CONFIG.price * (1 - CONFIG.pixDiscount);
+
+document.querySelectorAll(".js-price").forEach(el => el.textContent = brl(CONFIG.price));
+document.querySelectorAll(".js-pix").forEach(el => el.textContent = brl(pix));
+for (const [k, url] of Object.entries(CONFIG.links)) {
+  document.querySelectorAll(".js-link-" + k).forEach(a => a.href = url);
+}
+
+// Fotos (mostra um aviso no lugar enquanto não houver link)
+document.querySelectorAll("[data-img]").forEach(box => {
+  const url = CONFIG.images[box.dataset.img];
+  if (url && url.endsWith(".mp4")) {
+    const v = document.createElement("video");
+    v.src = url; v.poster = url.replace(".mp4", ".jpg");
+    v.muted = true; v.loop = true; v.autoplay = true; v.playsInline = true;
+    v.setAttribute("muted", ""); v.setAttribute("playsinline", ""); v.setAttribute("preload", "metadata");
+    v.setAttribute("aria-label", "Massageador de ventosa em uso");
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) { v.autoplay = false; }
+    box.prepend(v);
+    // só toca quando aparece na tela (economiza dados no celular)
+    if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      new IntersectionObserver(es => es.forEach(e => e.isIntersecting ? v.play().catch(()=>{}) : v.pause()), { threshold: 0.2 }).observe(v);
+    }
+  } else if (url) {
+    const img = document.createElement("img");
+    img.src = url; img.alt = "Massageador de ventosa com calor"; img.loading = "lazy";
+    box.appendChild(img);
+  } else {
+    const ph = document.createElement("div");
+    ph.className = "ph"; ph.textContent = box.dataset.label;
+    box.appendChild(ph);
+  }
+});
+
+// Botões de compra → checkout (mantém as UTMs do anúncio)
+const utm = window.location.search;
+const withUtm = url => url + (utm ? (url.includes("?") ? "&" + utm.slice(1) : utm) : "");
+const holder = document.getElementById("ymp-holder");
+let yampiTarget = null;   // link ou botão criado pelo script da Yampi
+
+function findYampi() {
+  if (!holder) return null;
+  return holder.querySelector("a[href]:not([href='#']):not([href=''])") ||
+         holder.querySelector("button, input[type=submit], [role=button], a");
+}
+function wireYampi() {
+  const el = findYampi();
+  if (!el) return false;
+  yampiTarget = el;
+  const href = el.tagName === "A" ? el.getAttribute("href") : "";
+  if (href && /^https?:/.test(href)) {
+    document.querySelectorAll(".js-buy").forEach(a => a.href = withUtm(href));
+  }
+  return true;
+}
+function goToCheckout(ev) {
+  if (window.fbq) fbq("track", "InitiateCheckout", { value: CONFIG.price, currency: "BRL" });
+  const a = ev.currentTarget;
+  if (a.getAttribute("href") && a.getAttribute("href") !== "#") return; // link direto: segue normal
+  ev.preventDefault();
+  if (yampiTarget || wireYampi()) { yampiTarget.click(); return; }
+  // reserva: mostra o botão oficial da Yampi e leva até ele
+  holder.classList.add("show"); holder.removeAttribute("aria-hidden");
+  holder.scrollIntoView({ behavior: "smooth", block: "center" });
+}
+document.querySelectorAll(".js-buy").forEach(a => {
+  a.href = CONFIG.checkoutUrl ? withUtm(CONFIG.checkoutUrl) : "#";
+  a.addEventListener("click", goToCheckout);
+});
+if (!CONFIG.checkoutUrl && holder) {
+  // espera o script da Yampi criar o botão (até 10 s)
+  let tries = 0;
+  const t = setInterval(() => {
+    if (wireYampi() || ++tries > 33) {
+      clearInterval(t);
+      if (!yampiTarget) { holder.classList.add("show"); holder.removeAttribute("aria-hidden"); }
+    }
+  }, 300);
+}
+
+// Evento de visualização do produto (Pixel)
+if (window.fbq) fbq("track", "ViewContent", { value: CONFIG.price, currency: "BRL", content_type: "product" });
+</script>
+</body>
+</html>
